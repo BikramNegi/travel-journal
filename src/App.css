@@ -44,6 +44,7 @@ header{
 .entry-location{
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .entry-location-icon{
