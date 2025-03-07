@@ -2,7 +2,7 @@ export default function Entry({img, title, country, googleMapsLink, dates, descr
     return(
         <div className="entry">
             <div className="entry-image-container">
-                <img src={img.src} className="entry-image" alt={img.alt}/>
+                <img src={img?.src} className="entry-image" alt={img?.alt}/>
             </div>
             <div className="entry-details">                
                 <div className="entry-location">
